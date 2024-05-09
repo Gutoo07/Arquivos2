@@ -32,7 +32,6 @@ public class Controller implements IArquivo {
 			throw new IOException ("Diretorio invalido.");
 		}
 	}
-
 	@Override
 	public void readFile(String path, String nome, String ext) throws IOException {
 		File arq = new File(path, nome + ext);

@@ -1,4 +1,4 @@
-package view;
+package view; //EXERCICIO 2
 import java.io.IOException;
 import controller.Controller;
 import controller.IArquivo;
@@ -10,7 +10,6 @@ public class Main {
 		
 		String dir = "C:\\TesteSO";
 		String nome = "SteamCharts";
-		String nome2= "GustavoKoyanagui";
 		String ext = ".csv";
 		
 		try {
